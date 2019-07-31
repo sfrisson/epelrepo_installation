@@ -3,4 +3,4 @@
   become: true
   gather_facts: yes #IMPORTANT
   roles:
-    - epel_repo
+    - role: './roles/epel_repo'

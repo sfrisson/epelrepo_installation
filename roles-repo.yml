@@ -1,0 +1,6 @@
+---
+- hosts: redhat
+  become: true
+  gather_facts: yes #IMPORTANT
+  roles:
+    - epel-repository
